@@ -1,1 +1,1 @@
-sem 3 prj
+oiii find some ideasss
