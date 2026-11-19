@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.sqlite3
+*.log
+staticfiles/
+media/
+backend/.env
+
+# ML models (train via Colab, don't commit large binaries)
+backend/ml/models/*.pkl
+backend/ml/models/*.joblib
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/.env
+
+# Frontend build
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files (use .env.example as template)
+.env
